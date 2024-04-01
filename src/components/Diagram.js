@@ -2,8 +2,6 @@ import * as React from "react";
 
 const Diagram = (props) => {
 
-
-
   return (
     <svg
       id="Layer_1"
