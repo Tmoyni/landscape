@@ -11,12 +11,28 @@ function App() {
 
   const handleClick = (t) => {
     let classList = t.target.classList;
-
-    if (classList.contains('cls-1')) {
-      console.log("hello")
+    console.log(classList)
+    if (classList.contains('st1')) {
+     
       setState({
-        layer: 'meadow',
+        layer: 'patio',
       });
+    } else if (classList.contains('st2')) {
+      setState({
+        layer: 'meadow-low',
+      });
+    } else if (classList.contains('st3')) {
+      setState({
+        layer: 'meadow-mid',
+      });
+    } else if (classList.contains('st4')) {
+      setState({
+        layer: 'meadow-groundcover',
+      });
+    } else if (classList.contains('st5')) {
+      setState({
+        layer: 'meadow-high',
+      }); 
     } else {
       setState({
         layer: 'none',

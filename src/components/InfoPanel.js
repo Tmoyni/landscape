@@ -1,6 +1,7 @@
 import PlantComponent from "./PlantComponent";
 
-function InfoPanel() {      
+function InfoPanel() {   
+    
     // const response = await fetch(`https://trefle.io/api/v1/genus?token=${YOUR_TREFLE_TOKEN}`, {
     //     mode: 'no-cors'
     // })
